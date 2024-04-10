@@ -11,13 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('examples', function (Blueprint $table) {
+        Schema::create('items', function (Blueprint $table) {
             $table->id();
             $table->string('item_category'); // A string column
             $table->integer('units')->nullable();
-            $table->date('last_added');
-            $table->date('last_taken');
-            $table->foreignId('user');
+            $table->date('last_added')->nullable();
+            $table->date('last_taken')->nullable();
+            $table->foreignId('user')->nullable();
             $table->timestamps();
         });
     }
@@ -27,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('examples');
+        Schema::dropIfExists('items');
     }
 };
