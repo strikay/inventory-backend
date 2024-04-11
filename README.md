@@ -21,12 +21,15 @@ Use the package manager [composer](https://getcomposer.org/download/) to install
 composer install
 ```
 
-Use the package manager [npm](https://getcomposer.org/download/) to install all the Javascrip packages in the project.
+Use the package manager [npm](https://nodejs.org/en/download) to install all the Javascript packages in the project.
 
 ```bash
 npm install
 ```
-Create a database called "inventory" via MySQL dashboard, which can be opened by opening XAMPP and clicking admin button adjacent to MySQL.
+Create a database called "inventory" via MySQL dashboard, which can be opened by opening XAMPP and clicking the admin button adjacent to MySQL.
+
+![Screenshot 2024-04-11 075956](https://github.com/strikay/inventory-backend/assets/41167411/90556d32-e88f-4ec9-a870-47d3df1fb399)
+![Screenshot 2024-04-11 080155](https://github.com/strikay/inventory-backend/assets/41167411/d7457df0-4a40-45a4-994a-e728a4332b07)
 
 
 ## Usage
